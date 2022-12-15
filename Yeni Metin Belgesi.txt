@@ -36,7 +36,8 @@ Buradaki mv hem dosya ismini değiştirmek için hemde dizinini değiştirmek i�
          DEĞİŞİKLİ GERİ ALMA (GEÇİŞ BÖLGESİ ÜZERİNDEN)
 
 1.YOL 
-İlk başta siliyoruz.Sonra geçiş bölgesüne bu değişikliği aktarıyoruz.Sonrada geçiş bölgesinde yazan komutu yazıp geri alıyoruz işlemi.
+İlk başta siliyoruz.Sonra geçiş bölgesine bu değişikliği aktarıyoruz.Sonrada 
+git reset HEAD dosyadı yazıyoruz.Sonra geçiş bölgesinden aldık ama çaşlışma dizininden  alamadık almak için ise git checkout --dosyadı
 
          VERSİYONLAR ARASI GEÇİŞ
 Biz eğer versiyonlar arasında geçiş yapmak istiyorsak geçiş yapmak istediğimiz verisiyonun kod numuralarını kopyalacağız heç kodunu yani .Yapılış tarzı git checkout versiyon kodu boşluk  -- boşluk .
@@ -47,4 +48,4 @@ Biz eğer versiyonlar arasında geçiş yapmak istiyorsak geçiş yapmak istedi�
 Biz eğer githupta proje oluşturmak istiyorsak o zaman biz git remote add githuprepo biz burada githup repo yerine başaka bir isimde verebilirdik.Bzi bunları girdikten sonra githupta proje linkimizi buaraya ekliyoruz.
 Biz lk başata github ta oluturduğumuz projenin bağlantısını git ekliyoruz.Bunuda biz 
 
-      
+        GİTHUBA PROJE GÖNDERMEK
