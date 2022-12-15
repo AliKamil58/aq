@@ -1,0 +1,50 @@
+   
+              SİLME iŞLEMİ
+"1.YOL"
+Biz burada silme ile ilgili ilk yöntemde ilk başta normal bilgisayardan bir dosyayı
+siliyoruz ardından sildiğimiz dosyayı git status ile kontrol ediyoruz sonra git add dosyaAdı ile stage yani geçiş
+bölgesine taşıyoruz.Sonrada bu geçiş bölgesindende git commit -m "mesajla" git deposuna gönderiyoruz işlem tamamlanıyor artık doyayı gittende normalden de silmiş oluyoruz.
+Tabi bu işin uzun tarafı daha kısa şekildede bu işlemi yapabiliriz.
+
+"2.YOL"
+Biz 2.yol olarak git rm dosyaadı şeklinde kod satırı üzeründen silebiliyoruz dosyalar 2.yöntem kod satırı üzeünden sildiğimizden dolayı daha mantıklı.
+
+
+//Birde biz eğer bütün bir classörü silmek istiyorsak o zaman
+biz git rm -r mesaj yazıyoruz ve bütün classörü siliyoruz.
+//Biz bu şekilde en sonda mesaj kısmına sileceğimiz klasörün adını yazarak silme işlemini gerçekleştirebilyoruz.
+
+
+            İSİM DEĞİŞTİRME İŞLEMİ
+1.YOL
+İlk başta bilgisayardan ismini değiştiriyoruz sonra git status diyoruz sonra bu değişikliği geçiş e atıyoruz tabi bunu git add . ile
+Sonra git commit -m "mesaj" ile de git deposuna akatarıyoruz.Bu şelide işlemi gerçekleştiriyoruz.
+
+
+2.YOL
+İlk başta biz burada  git mv dosyanın ilk ismi sonrada ikinci ismiolarak  yazacağız.
+Buradaki mv hem dosya ismini değiştirmek için hemde dizinini değiştirmek içindir.
+
+//!!!!!Önemli her bir proje dosyası açtığımızda git init işlemini yapıyoruz !!!!!!!!!!!
+
+          DEĞİŞİKLİĞİ GERİ ALMA (ÇALIŞMA DİZİNİ ÜZERİNDEN)
+
+1.YOL
+İlk başta herhangibir dosyayı siliyoruz.Sonra git restore dosyaadı  seklinde yazıyoruz.Sildiğimiz yada değişiklik yaptığımız dosyanın adını yazacağız.
+
+
+         DEĞİŞİKLİ GERİ ALMA (GEÇİŞ BÖLGESİ ÜZERİNDEN)
+
+1.YOL 
+İlk başta siliyoruz.Sonra geçiş bölgesüne bu değişikliği aktarıyoruz.Sonrada geçiş bölgesinde yazan komutu yazıp geri alıyoruz işlemi.
+
+         VERSİYONLAR ARASI GEÇİŞ
+Biz eğer versiyonlar arasında geçiş yapmak istiyorsak geçiş yapmak istediğimiz verisiyonun kod numuralarını kopyalacağız heç kodunu yani .Yapılış tarzı git checkout versiyon kodu boşluk  -- boşluk .
+        
+
+        GİTHUPTA PROJE OLUŞTURMA
+
+Biz eğer githupta proje oluşturmak istiyorsak o zaman biz git remote add githuprepo biz burada githup repo yerine başaka bir isimde verebilirdik.Bzi bunları girdikten sonra githupta proje linkimizi buaraya ekliyoruz.
+Biz lk başata github ta oluturduğumuz projenin bağlantısını git ekliyoruz.Bunuda biz 
+
+      
